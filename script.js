@@ -19,12 +19,24 @@ while (i < 10) {
 }
 
 // JS function
+function helloWorld() {
+  console.log("Hello World");
+}
 
 // JS object
+var obj = {
+  name: "Hello World",
+};
 
 // JS array
+var arr = ["Hello World"];
 
 // JS class
+class HelloWorld {
+  constructor() {
+    this.name = "Hello World";
+  }
+}
 
 // JS class inheritance
 
