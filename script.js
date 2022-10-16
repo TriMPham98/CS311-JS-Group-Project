@@ -8,14 +8,16 @@ if (true) {
 
 // JS for loop
 for (var i = 0; i < 10; i++) {
-  console.log("Hello World");
+  console.log(i);
 }
 
+console.log("\n");
+
 // JS while loop
-var i = 0;
-while (i < 10) {
-  console.log("Hello World");
-  i++;
+var i = 10;
+while (i > 0) {
+  console.log(i);
+  i--;
 }
 
 // JS function
