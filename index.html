@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<html>
+  <head></head>
+    <title>Demonstration</title>
   </head>
   <body>
-    <script src="script.js"></script> <!-- This line links script.js to index.html -->
+    <h1>JavaScript Basics</h1>
+    <!---------------------------------------------------------------------------------->
+    <script>
+
+      //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      // variables
+      let number = 1;
+      const number_2 = 2;
+
+      //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      
+      // if-else
+      if (number === 0) {
+        alert("number is 0");
+      } else if (number === 1) {
+        alert("number is 1");
+      } else {
+        alert("number is neither 0 nor 1.")
+      }
+
+      //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      // switch statements
+      switch(number) {
+        case 0:
+          alert("number is 0");
+          break;
+        case 1:
+          alert("number is 1");
+          break;
+        default:
+          alert("number is neither 0 nor 1.");
+      }
+
+      //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      // while loops
+      let n = 0;
+      while (n < 3) {
+        alert(n);
+        n++
+      }
+      
+      //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+      // for-loops
+      for (let i = 0; i < 10; i++) {
+        alert(i);
+      }
+
+      //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      // functions
+      function return_hello() {
+        return "hello"
+      }
+
+      alert(return_hello());
+      //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    </script>
+    <!---------------------------------------------------------------------------------->
   </body>
 </html>
